@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Aug 21 21:45:15 IST 2024
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\91778\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-jasper\\10.1.25\\tomcat-embed-jasper-10.1.25.jar=WEB-INF/lib/tomcat-embed-jasper-10.1.25.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\91778\\.m2\\repository\\org\\springframework\\spring-web\\6.1.10\\spring-web-6.1.10.jar=WEB-INF/lib/spring-web-6.1.10.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\91778\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\10.1.25\\tomcat-embed-el-10.1.25.jar=WEB-INF/lib/tomcat-embed-el-10.1.25.jar

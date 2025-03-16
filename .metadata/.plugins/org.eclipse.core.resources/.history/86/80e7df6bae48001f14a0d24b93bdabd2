@@ -1,0 +1,12 @@
+emp.empName.required=employee name is required
+emp.designation.required=employee designation is required
+emp.mgr.required=employee mgr is required
+emp.hireDate.required=employee Hire Date is required
+emp.sal.required=employee sal is required
+emp.deptno.required=employee department number is required
+
+emp.empName.length=employee name must be greater than 5 characters and less than 20 characters
+emp.designation.length=employee designation must be greater than 5 characters and less than 20 characters
+emp.hireDate.valid=employee Hire Date must be less than todays date
+emp.sal.range=employee sal must be greater than 25000.0
+emp.deptno.range=employee department number must be in b/w 10-90

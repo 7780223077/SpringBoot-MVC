@@ -1,0 +1,11 @@
+table,h1{
+	text-align: center;
+ }
+ 
+ span, .red{
+	color: red;
+ }
+ 
+table,td{
+	border-style: none;
+}

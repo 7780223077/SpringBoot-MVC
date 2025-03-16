@@ -1,0 +1,4 @@
+emp.empName.required=employee name is required
+emp.designation.required=employee designation is required
+emp.mgr.required=employee mgr is required
+emp.mgr.required=employee mgr is required

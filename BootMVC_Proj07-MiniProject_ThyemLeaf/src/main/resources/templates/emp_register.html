@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<style>
+		*{
+			text-align: center;
+		}
+	</style>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Employee Registration Form</h1>
+	<form th:action="@{/employee/add_emp}" th:object="${emp}" method="POST">
+		<table border="1" align="center" bgcolor="green">
+			<tr>
+				<td>Employee Name :</td>
+				<td><input type="text" th:field="*{empName}"/></td>
+			</tr>
+			<tr>
+				<td>Employee Designation: </td>
+				<td><input type="text" th:field="*{designation}"/></td>
+			</tr>
+			<tr>
+				<td>Employee MGR: </td>
+				<td><input type="text" th:field="*{mgr}"/></td>
+			</tr>
+			<tr>
+				<td>Employee HireDate: </td>
+				<td><input type="text" th:field="*{hireDate}"/></td>
+			</tr>
+			<tr>
+				<td>Employee Salary: </td>
+				<td><input type="text" th:field="*{sal}"/></td>
+			</tr>
+			<tr>
+				<td>Employee Department No: </td>
+				<td><input type="text" th:field="*{deptNo}"/></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="register"></td>
+				<td><input type="Reset" value="RESET"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

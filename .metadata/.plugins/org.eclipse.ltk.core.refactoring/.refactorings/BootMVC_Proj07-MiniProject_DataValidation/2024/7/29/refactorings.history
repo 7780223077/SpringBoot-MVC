@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BootMVC_Proj07-MiniProject_DataValidation/src/main/resources/com.charan.commons/validations.properties&apos; to &apos;emp_validations.properties&apos;" description="Rename resource &apos;validations.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/com.charan.commons/validations.properties" name="emp_validations.properties" stamp="1721408393081" updateReferences="true"/>
+</session>

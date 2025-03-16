@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: BootMVC_Proj05-RequestParam-Annotation
+  mvc:
+    view:
+     prefix: /WEB-INF/pages/
+     suffix: .jsp
+
+server:
+  port: 4040
+     
+

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: BootMVC_Proj03T
+    
+#view resolver inputs
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+    
+#embeded server port no
+server:
+  port: 4040
+  
+ 
+

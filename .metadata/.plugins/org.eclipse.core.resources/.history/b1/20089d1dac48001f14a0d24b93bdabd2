@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: BootMVC_Proj06-MiniProject
+#  view resolver configuration
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+      
+# data source config
+  datasource:
+    jndi-name: jdbc/myoracle
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: c##charan
+    password: cherry007
+    
+#jpa configuration
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      
+# embeded server port no
+server:
+  port: 4040

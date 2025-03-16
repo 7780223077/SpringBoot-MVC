@@ -1,0 +1,13 @@
+127.0.0.1 - - [18/Jul/2024:20:40:26 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:27 +0530] "GET /BootMVC_Proj06-MiniProject/ HTTP/1.1" 200 405
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:27 +0530] "GET /BootMVC_Proj06-MiniProject/images/report.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:27 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:40 +0530] "GET /BootMVC_Proj06-MiniProject/report HTTP/1.1" 200 2436
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:40 +0530] "GET /BootMVC_Proj06-MiniProject/images/home.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:40 +0530] "GET /BootMVC_Proj06-MiniProject/images/add_emp.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:44 +0530] "GET /BootMVC_Proj06-MiniProject/report?page=0 HTTP/1.1" 200 2436
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:48 +0530] "GET /BootMVC_Proj06-MiniProject/report?page=1 HTTP/1.1" 200 2577
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:53 +0530] "GET /BootMVC_Proj06-MiniProject/report?page=2 HTTP/1.1" 200 2572
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:54 +0530] "GET /BootMVC_Proj06-MiniProject/report?page=3 HTTP/1.1" 200 2572
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:56 +0530] "GET /BootMVC_Proj06-MiniProject/report?page=4 HTTP/1.1" 200 2569
+0:0:0:0:0:0:0:1 - - [18/Jul/2024:20:40:57 +0530] "GET /BootMVC_Proj06-MiniProject/report?page=5 HTTP/1.1" 200 1832

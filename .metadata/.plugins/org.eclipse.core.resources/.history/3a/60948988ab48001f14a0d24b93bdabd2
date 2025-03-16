@@ -1,0 +1,5 @@
+package com.charan.validator;
+
+public class EmployeeValidator {
+
+}

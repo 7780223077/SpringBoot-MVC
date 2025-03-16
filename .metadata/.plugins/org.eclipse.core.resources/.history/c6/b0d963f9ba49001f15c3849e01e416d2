@@ -1,0 +1,17 @@
+table {
+            margin: 0 auto; /* Center the table horizontally */
+            width: 50%; /* Adjust the width as per your design */
+            border-collapse: collapse; /* Eliminate gaps between cells */
+        }
+
+        td, th {
+            border: 1px solid black; /* Add a border to the cells */
+            padding: 8px; /* Add some padding inside the cells */
+            margin: 0; /* Ensure no margin is applied to the cells */
+        }
+ h1{
+	text-align: center;
+ }
+ span, .red{
+	color: red;
+ }

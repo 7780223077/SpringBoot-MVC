@@ -1,0 +1,14 @@
+table{
+	margin: 0 auto; /* This centers the element horizontally */
+    width: 60%; /* Adjust the width as per your design */
+ }
+ h1{
+	text-align: center;
+ }
+ span, .red{
+	color: red;
+ }
+ 
+table,td{
+	border-style: none;
+}

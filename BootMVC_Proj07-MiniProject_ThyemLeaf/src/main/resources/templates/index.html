@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>MVC Application</title>
+</head>
+<body>
+	<h1>Home Page</h1>
+	<p>Spring Boot MVC application</p>
+	<p style="color: red" align="center"><a th:href="@{/employee/report}">Get Employee Data</a></p>
+	<p style="color: red" align="center">
+		<a th:href="@{/employee/report}"><img alt="Report" th:src="@{/images/report.png}" width="40px" height="50px"></a>
+	</p>
+</body>
+</html>

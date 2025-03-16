@@ -1,0 +1,19 @@
+/**
+ * form validations for emp_register.jsp
+ */
+
+ function doValidation(frm){
+	console.log("hello world charan reddy")
+	//read form data values
+	let name = frm.empName.value;
+	let desig = frm.designation.value;
+	let mgr = frm.mgr.value;
+	let hireDate = frm.hireDate.value;
+	let sal = frm.sal.value;
+	let deptNo = frm.deptNo.value;
+	
+	//form validation logics
+	if(name==""){
+		document.getElementById("empNameErr").innerHTML="Employee name is mandatory";
+	}
+ }

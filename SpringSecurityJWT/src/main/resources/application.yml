@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: SpringSecurityJWT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: cherry007
+    url: jdbc:mysql:///pratice
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+       
+server:
+  port: 4040
+  
+logging:
+  level:
+    org.sprringframework.security: TRACE

@@ -1,0 +1,11 @@
+*{
+	text-align: center;
+ }
+ 
+ span, .red{
+	color: red;
+ }
+ 
+.td-noborder{
+	border-style: none;
+}

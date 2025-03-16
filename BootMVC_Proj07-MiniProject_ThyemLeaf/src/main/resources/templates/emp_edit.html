@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Edit form</title>
+<style type="text/css">
+	*{
+	text-align: center;
+	}
+</style>
+</head>
+<body>
+	<h1>Employee Edit form</h1>
+	<form th:object="${emp}" th:action="@{/employee/edit}" method="post">
+		<table border="1" align="center">
+			<tr>
+				<td>Employee Id :</td>
+				<td><input th:field="*{empId}" readonly="readonly"></td>
+			</tr>
+			<tr>
+				<td>Employee Name :</td>
+				<td><input th:field="*{empName}"/></td>
+			</tr>
+			<tr>
+				<td>Employee Designation: </td>
+				<td><input th:field="*{designation}"/></td>
+			</tr>
+			<tr>
+				<td>Employee MGR: </td>
+				<td><input th:field="*{mgr}"/></td>
+			</tr>
+			<tr>
+				<td>Employee HireDate: </td>
+				<td><input th:field="*{hireDate}"/></td>
+			</tr>
+			<tr>
+				<td>Employee Salary: </td>
+				<td><input th:field="*{sal}"/></td>
+			</tr>
+			<tr>
+				<td>Employee Department No: </td>
+				<td><input th:field="*{deptNo}"/></td>
+			</tr>
+			<tr>
+				<td rowspan="2"><input type="submit" value="Update"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
